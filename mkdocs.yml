@@ -1,0 +1,20 @@
+site_name: Open Specifications for Folded Tree Object Notation (FoTrON)
+docs_dir: 'spec'
+theme: 'material'
+repo_name: 'FoTrON'
+repo_url: 'https://github.com/FoTrON/rfc'
+extra:
+  palette:
+    primary: 'cyan'
+    accent: 'light green'
+markdown_extensions:
+    - meta
+    - codehilite
+    - pymdownx.tasklist(custom_checkbox=true)
+pages:
+    - 'Open Specifications for Folded Tree Object Notation (FoTrON)' : index.md
+    - LICENSE : LICENSE.md
+    - 'Drafts':
+        - '1/FoTrON' : '1/FoTrON.md'
+        - '2/RFoTrON' : '2/RFoTrON.md'
+    #- '1/НоВлДО' : '1/НоВлДО.md'
